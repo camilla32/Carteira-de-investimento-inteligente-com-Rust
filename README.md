@@ -27,28 +27,19 @@ Desenvolver uma solução capaz de:
 
 - Cadastro de ativos
 - Classificação por categoria
-- Controle dos valores investidos
 
 ### Indicadores Financeiros
 
 - Patrimônio total
-- Rentabilidade simulada
-- Score de risco
 - Distribuição da carteira
 
 ### Inteligência da Carteira
 
 - Identificação de concentração excessiva
-- Sugestões de diversificação
-- Recomendações de rebalanceamento
 
 ### Dashboard
 
-- Hero Section
-- KPIs financeiros
 - Gráfico de alocação dos ativos
-- Insights automáticos
-- Recomendações estratégicas
 
 ---
 
@@ -89,15 +80,11 @@ Dashboard Interativo
 ### KPIs
 
 - Patrimônio Total
-- Rentabilidade
-- Score de Risco
 - Quantidade de Ativos
 
 ### Visualizações
 
 - Alocação da Carteira
-- Distribuição por Categoria
-- Recomendações de Investimento
 
 ---
 
@@ -138,6 +125,82 @@ smart-investment-portfolio/
 
 ---
 
+## 🔄 Evoluções Futuras
+
+A versão atual do projeto implementa a lógica de processamento da carteira de investimentos em Rust e a visualização dos dados através de um gráfico de alocação utilizando HTML, JavaScript e Chart.js.
+
+Embora o sistema já permita analisar a distribuição dos ativos da carteira, algumas melhorias foram identificadas para versões futuras:
+
+### Dashboard Completo
+
+Transformar a visualização atual em um dashboard financeiro completo, contendo:
+
+- Hero Section com resumo da carteira;
+- KPIs financeiros;
+- Patrimônio total;
+- Rentabilidade acumulada;
+- Score de risco;
+- Quantidade de ativos;
+- Melhor ativo da carteira.
+
+### Novas Visualizações
+
+Implementar gráficos adicionais para ampliar a análise:
+
+- Evolução patrimonial ao longo do tempo;
+- Comparação entre classes de ativos;
+- Distribuição por categoria;
+- Rentabilidade por ativo;
+- Histórico de aportes.
+
+### Integração Dinâmica
+
+Atualmente os dados são gerados localmente. Em versões futuras, pretende-se:
+
+- Consumir dados de APIs financeiras;
+- Atualizar preços em tempo real;
+- Integrar provedores de mercado financeiro;
+- Automatizar rebalanceamentos.
+
+### Inteligência da Carteira
+
+Adicionar mecanismos de recomendação mais avançados:
+
+- Perfil de investidor;
+- Simulação de cenários;
+- Sugestões de diversificação;
+- Alertas de concentração excessiva;
+- Otimização automática de alocação.
+
+### Melhorias Técnicas
+
+- Utilização de Serde para serialização JSON;
+- Arquitetura modular em Rust;
+- Interface responsiva;
+- Deploy em ambiente cloud;
+- Dashboard web em tempo real.
+
+---
+
+### Status Atual
+
+✅ Processamento da carteira em Rust
+
+✅ Geração de dados financeiros
+
+✅ Exportação de informações para JSON
+
+✅ Dashboard HTML
+
+✅ Visualização da composição da carteira
+
+⚠ Dashboard ainda em evolução para uma experiência analítica completa
+
+---
+###  Observação:
+Este projeto representa um MVP (Minimum Viable Product) de uma plataforma de investimentos inteligente. O foco principal foi demonstrar a integração entre Rust, processamento financeiro e visualização de dados, servindo como base para futuras expansões e funcionalidades mais avançadas.
+
+---
 ## 🎓 Projeto Desenvolvido
 
 Projeto desenvolvido como parte dos desafios práticos da DIO (Digital Innovation One), com foco na aplicação de Rust em cenários financeiros e análise de investimentos.
